@@ -35,7 +35,7 @@ Full Subtractor:
 
 8 Bit Ripple Carry Adder
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
+```![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)```
 
 
 Logic Gates:
