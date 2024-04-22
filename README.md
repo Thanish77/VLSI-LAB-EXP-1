@@ -77,6 +77,7 @@ endmodule
 
 
 Full Adder:
+```
 module fadd(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
@@ -87,9 +88,11 @@ xor g3(sum,w1,c);
 and g4(w3,w1,c);
 or g5(carry,w3,w2);
 endmodule
+```
 
 
 full Subtractor:
+```
 module fs(a,b,bin,d,bout);
 input a,b,bin; 
 output d,bout;
@@ -100,9 +103,11 @@ and g3(w2,a,~w1);
 and g4(w3,~b,bin);
 or g5(bout,w2,w3);
 endmodule
+```
 
 
 4 bit ripple carry adder:
+```
 module rippe_adder(S,Cout,X,Y,Cin);
 input [3:0] X,Y;
 input Cin;
@@ -114,9 +119,11 @@ fulladder u2(S[1],w2,X[1],Y[1],w1);
 fulladder u3(S[2],w3,X[2],Y[2],w2);
 fulladder u4(S[3],Cout,X[3],Y[3],w3);
 endmodule
+```
 
 
 8 bit ripple carry adder:
+```
 module fulladder(S,CO,X,Y,Ci);
 input X,Y,Ci;
 output S,CO;
@@ -127,6 +134,7 @@ and G3(w2,X,Ci);
 and G4(w3,X,Y);
 or G5(CO,w3,w3);
 endmodule
+```
 
 
 OUTPUT:
