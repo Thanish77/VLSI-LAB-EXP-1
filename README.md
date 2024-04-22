@@ -39,7 +39,7 @@ Full Subtractor:
 
 
 Logic Gates:
-module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+~module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;  
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
 and(andgate,a,b);
@@ -50,6 +50,7 @@ nor(norgate,a,b);
 xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
+`
 
 Half Adder:
 module halfadder(a,b,sum,carry);
