@@ -61,12 +61,14 @@ and g2(carry,a,b);
 endmodule
 
 Half Subractor:
+`
 module halfsubtractor(a,b,diff,borrow);
 input a,b;
 output diff,borrow;
 xor g1(diff,a,b);
 and g2(borrow,~a,b);
 endmodule
+`
 
 
 Full Adder:
